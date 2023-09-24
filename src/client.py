@@ -2,7 +2,7 @@
 import json
 import requests
 from fastapi.exceptions import HTTPException
-from src.config import INVERTEXT_HOLIDAY_URL, INVERTEXT_KEY, INVERTEXT_LOCATION_URL
+from holidays.src.config import INVERTEXT_HOLIDAY_URL, INVERTEXT_KEY, INVERTEXT_LOCATION_URL
 
 
 class ClientInvertexto():

@@ -3,7 +3,7 @@ from datetime import datetime
 from fastapi import FastAPI
 from fastapi import status
 from fastapi.responses import JSONResponse
-from src.client import ClientInvertexto
+from holidays.src.client import ClientInvertexto
 
 
 app = FastAPI()
